@@ -1,0 +1,204 @@
+body{ 
+  color: #575757;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-align-last: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+input{
+  font-family: 'Lato', sans-serif;
+}
+
+#headerText {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+}
+
+#content {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#headerDescription {
+  font-family: 'Lato', sans-serif;
+}
+
+#paymentFormHeader{
+  min-height: 92px;
+  width: 100%;
+  font-weight: 600;
+  background: #62e5a8;
+  padding: 24px;
+  border-radius: 18px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 6px;
+  color:#000;
+  margin-bottom: 2em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+#infoHeaderContent{
+  min-height: 92px;
+  width: 100%;
+  font-weight: 400;
+  background: #68a4d4;
+  padding: 24px;
+  border-radius: 18px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 6px;
+  color:#000;
+  margin-bottom: 1em;    
+  font-family: 'Bebas Neue', cursive;
+}
+
+#infoSteps{
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 8px;
+  font-family: 'Lato', sans-serif;
+}
+
+#infoSteps h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+#infoMore{
+  color: #000;
+  transition: 1s;
+}
+
+#infoMore:hover{
+  color: #fff;
+  background-color: #68a4d4;
+  padding: 24px;
+}
+
+#moreHeader{
+  min-height: 96px;
+  width: 100%;
+  background: #575757;
+  border-radius: 36px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 6px;
+  padding: 24px;
+  color:#fff ;
+font-family: 'Bebas Neue', cursive;
+}
+
+#moreTalkForm h4{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+margin-top: 2em;
+}
+
+.form-control {
+  border: 1px solid #0a58ca;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+#custom-amount-form {
+  margin: 0 auto;
+  width: 85%;
+}
+
+#customFormHeader {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+#checkout-button {
+  background: #535353;
+}
+
+form input {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid #addafc !important;
+}
+
+#payment_button { 
+  width: 100%;
+  background: #4bae80;
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  border: 1px solid #FFFFFF !important;
+  transition: 1s;
+  margin-bottom: 2em;
+}
+
+#payment_button:hover{
+  padding:32px;
+  background: #62e5a8;
+  color: #000;
+}
+
+.donate-button {
+  padding: 16px;
+  border-radius: 12px;
+  width: 100%;
+
+}
+
+#moreTalk{
+  font-family: 'Lato', sans-serif;  
+}
+
+#thanks {
+  text-align: center;
+}
+
+footer {
+  background: #293237;
+  color: #FFFFFF;
+  width: 100%;
+  min-height: 320px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  padding: 16px;
+}
+
+footer h4{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+}
+
+#footerRedirect {
+  font-family: 'Lato', sans-serif;
+}
+
+footer a{
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Bebas Neue', cursive;
+  transition: 0.5s;
+}
+
+footer a:hover{
+  background: #FFFFFF;
+  color:#313131;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+.footerContactInfo{
+  font-family: 'Lato', sans-serif;
+}
+
+#footerContactInfo{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+}

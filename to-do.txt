@@ -1,0 +1,29 @@
+update styling for CMS
+    V general
+
+    V update header fonts
+    V update p fonts
+    V add cms footer
+
+    settings:
+    V form styling
+    V add minimize button
+
+    -payments:
+    V change table to cards
+      
+
+V create dynamic QR code based on root URL 
+
+V create AJAX auto update functionality for payments interface
+
+V mailing list table
+V mailing list auto install
+V mailing list widget functions
+V mailing list CMS
+
+V update settings crud to support images/file upload
+- REFACTOR js functions scattered throughout...
+- REFACTOR PHP functions scattered throughout...
+
+- create payment model/object
