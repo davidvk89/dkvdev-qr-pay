@@ -6,14 +6,13 @@ $dotenv->load();
 $servername = $_ENV['servername'];
 $db_username = $_ENV['db_username'];
 $db_password = $_ENV['db_password'];
+$db_name = $_ENV['database_name'];
 
 // Create connection
-$conn = new mysqli($servername, $db_username, $db_password, "dkvdev_qrpayments");
+$conn = new mysqli($servername, $db_username, $db_password, $db_name);
    
-
-// debug: $data = "return data from paymentsUpdateHandler.php";     echo "$data"
-
-    $table = $_POST['id'];
+$table = $_POST['id'];
+  
     $query = "SELECT * FROM $table ORDER BY payment_id DESC LIMIT 50 ";
     $result = mysqli_query($conn, $query);
     if(!$result){die('query failed:') . mysqli_error($conn);}
