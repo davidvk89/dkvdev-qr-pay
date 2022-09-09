@@ -25,5 +25,16 @@ include("ui/header.html"); //HTML head. ?>
 <?php include('ui/footer.php');?>
 </body>
 </html>
-
+<script>
+setInterval(function () {
+  $.post("lib/paymentsUpdateHandler.php",
+  {
+    id: paymentID
+    
+  },
+  function(data, status){
+    document.getElementById('paymentWindow').innerHTML = data;
+  })
+}, 10000);
+</script>
 <script src="lib/js/payment-update-functions.js"></script>
