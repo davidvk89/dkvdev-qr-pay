@@ -1,7 +1,7 @@
 <?php
 require('vendor/autoload.php');
 require('lib/functions.php');
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable('./');
 $dotenv->load();
 
 $servername = $_ENV['servername'];

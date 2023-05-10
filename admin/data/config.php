@@ -1,15 +1,16 @@
 <?php
 require('vendor/autoload.php');
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable('./../');
 $dotenv->load();
 
 $servername = $_ENV['servername'];
 $db_username = $_ENV['db_username'];
 $db_password = $_ENV['db_password'];
+$db_name = $_ENV['database_name'];
 
 // Create connection
-$conn = new mysqli($servername, $db_username, $db_password, "dkvdev_qrpayments");
+$conn = new mysqli($servername, $db_username, $db_password, $db_name);
 
 
 //THESE VARIABLES DEFINE THE TABLES THAT ARE MADE AND ITS VALUES!!!
